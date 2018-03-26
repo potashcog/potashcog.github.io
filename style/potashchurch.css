@@ -102,10 +102,10 @@ table
 	border-collapse: collapse;
 	margin-left: 35%;
 }
-dl li
+dd 
 {
-	text-indent: -22px;
-	padding-bottom: 5px;
+    display: list-item;
+    list-style-type: disc;
 }
 td, th
 {
