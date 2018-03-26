@@ -1,0 +1,313 @@
+body	 
+{ 		   
+	background-color: #8B0000; 
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif; 
+	background-image: url(../images/gradientred.jpg);
+}
+header
+{
+	background-color: #8B0000; 
+	color: #FFFFFF;
+}
+img
+{
+	border: none;
+	margin: auto;
+	
+	display: block;
+}
+h1		 
+{ 
+	text-align: center; 
+	font-size: 3em;
+	line-height: 150%;
+	text-shadow: 1px 1px 2px #CCCCCC;
+}
+dl
+{
+	margin-left: 275px;
+	padding-top: 20px;
+}
+dl dd
+{
+	padding-bottom: 15px;
+}
+nav		 
+{ 
+	font-weight: bold;
+	font-size: 1.3em;
+	float: left;
+	margin: auto;
+	width: 20%;
+}
+nav ul
+{
+	list-style-type: none;
+	list-style-image: none;
+}
+nav a
+{
+	text-decoration: none;
+	display: block;
+}
+a:link
+{
+	color: #F3D149;
+}
+a:visited
+{
+	color: #FFFFFF;
+}
+a:hover
+{
+	color: #92DFED;
+}
+a
+{
+	text-decoration: underline;
+}
+
+p
+{
+	margin-left: 175px;
+}
+aside
+{
+	float: right;
+	margin:auto;
+	display: block;
+	width: 20%;
+}
+aside ul
+{
+	list-style-type: none;
+	
+}
+aside li
+{
+	font-weight: bold;
+	display: block;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	
+}
+aside img
+{
+	margin-left: 1px;
+}
+table
+{
+	border: 2px solid #8B0000;
+	border-collapse: collapse;
+	margin-left: 35%;
+}
+dl li
+{
+	text-indent: -22px;
+	padding-bottom: 5px;
+}
+td, th
+{
+	
+	border: 1px solid #8B0000;
+	text-align: center;
+}
+footer	 
+{ 		
+	background-color: #595959;
+	font-size: 0.70em;
+	font-style: italic;
+	padding: 10px;
+	text-align:center;
+	clear: both;
+	
+}
+.category
+{ 			
+	background-color: #595959;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #667;
+	margin-bottom: 15px;
+}
+#gallery
+{
+	display: inline-block;
+	margin-left: 100px;
+}
+#gallery img
+{
+	display: inline-block;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+#wrapper 
+{ 	
+	background-color: #595959;
+	color: #FFFFFF;
+}
+#centered
+{
+	text-align: center;
+	margin: auto;
+	padding-left: 275px;
+	padding-top: 15px;
+}
+#contact
+{
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+#mobile
+{
+	display: none;
+}
+#desktop
+{
+	display: inline;
+}
+*
+{
+	box-sizing: border-box;
+}
+header, nav, main, footer 
+{
+	display: block;
+}
+@media only screen and (max-width: 1170px)
+{
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	aside
+	{
+		display: none;
+	}
+	h1
+	{
+		margin: 0;
+		font-size: 1.8em;
+		line-height: 200%;
+	}
+	nav
+	{
+		float: none;
+		width: auto;
+	}
+	nav li
+	{
+		display: inline-block;
+	}
+	nav a
+	{
+		padding: 0.38em;
+		font-size: 0.9em;
+	}
+	nav ul
+	{
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	main
+	{
+		font-size: 90%;
+		margin: 0;
+		padding-left: 2em;
+	}
+	table
+	{
+		margin: auto;
+	}
+	p
+	{
+		margin: 0;
+		padding: 10px;
+	}
+	footer
+	{
+		margin: 0;
+	}
+	dl
+	{
+		margin: 0;
+		padding-top: 15px;
+	}
+	img
+	{
+		margin: auto;
+	}
+	#hidden
+	{
+		display: none;
+	}
+	#centered
+	{
+		padding-left: 0;
+	}
+	#contact
+	{
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	header	 
+	{ 		  
+		background-image: none; 
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	h1
+	{
+		font-size: 1.5em;
+		line-height: 120%;
+	}
+	nav a
+	{
+		display: block;
+		padding: 0.2em;
+		font-size: 1.3em;
+		border-bottom: 1px #330000;
+	}
+	nav li
+	{
+		display: block;
+	}
+	nav ul
+	{
+		text-align: left;
+	}
+	main
+	{
+		padding-left: 1em;
+	}
+	dl
+	{
+		padding: 0;
+	}
+	.category
+	{
+		text-shadow: none;
+	}
+	#gallery
+	{
+		display: block;
+		margin: auto;
+	}
+	#mobile
+	{
+		display: inline;
+	}
+	#desktop
+	{
+		display: none;
+	}
+}
