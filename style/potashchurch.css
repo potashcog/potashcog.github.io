@@ -291,6 +291,7 @@ header, nav, main, footer
 	dl
 	{
 		padding: 0;
+		margin-right: 5px;
 	}
 	.category
 	{
