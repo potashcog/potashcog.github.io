@@ -53,7 +53,7 @@ nav a
 }
 a:link
 {
-	color: #F3D149;
+	color: #EBE276;
 }
 a:visited
 {
@@ -62,12 +62,15 @@ a:visited
 a:hover
 {
 	color: #92DFED;
-}
-a
+	}
+p a
 {
 	text-decoration: underline;
 }
-
+a
+{
+	text-decoration: none;
+}
 p
 {
 	margin-left: 175px;
