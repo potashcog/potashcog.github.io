@@ -1,7 +1,6 @@
 (function($) {
     let modalDiv = buildModalFromScratch();
     $('#gallery img').on('click', (event) => {
-        $(modalDiv).removeAttr('hidden');
         $(modalDiv).find('.modal-header').first().html('<h2>' + event.target.alt + '</h2>');
 
         let img = document.createElement('img');
@@ -9,6 +8,7 @@
         img.alt = event.target.alt;
 
         $(modalDiv).find('.modal-body').first().html(img);
+        $(modalDiv).fadeIn();
     });
 
     $('.modal-btn').keypress((event) => {
@@ -18,7 +18,7 @@
     });
 
     $('.modal-btn').on('click', () => {
-        $('#gallery-modal-div').attr('hidden', '');
+        $('#gallery-modal-div').fadeOut();
     });
 })(jQuery);
 

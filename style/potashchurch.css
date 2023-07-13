@@ -166,7 +166,7 @@ footer {
 #gallery div {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.5em;
+	gap: 0.75em;
 }
 
 #gallery h3 {
@@ -177,6 +177,8 @@ footer {
 #gallery img {
 	display: inline-block;
 	margin: 0;
+	max-width: 100%;
+	height: auto;
 }
 
 #wrapper {
@@ -234,7 +236,7 @@ footer {
 	background-color: #595959;
 	margin: 2em auto auto;
 	max-width: 700px;
-	max-height: 100%;
+	max-height: calc(100% - 4em);
 	overflow: scroll;
 	padding: 0 1em;
 }
@@ -405,4 +407,18 @@ footer {
 	#desktop {
 		display: none;
 	}
+
+	#gallery div {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#gallery img {
+		width: 100%;
+	}
+
+	#modal-inner-wrapper {
+		margin: 2em 1em;
+	}
+
 }
